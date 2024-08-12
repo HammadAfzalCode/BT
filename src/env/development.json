@@ -1,0 +1,51 @@
+{
+  "environment": "development",
+  "app": {
+    "domain": "localhost",
+    "cookie_domain": "localhost"
+  },
+  "server": {
+    "version": "1.0",
+    "name": "BrakeTime",
+    "host": "0.0.0.0",
+    "port": 4000,
+    "ssl": false,
+    "api_prefix": "/v1",
+    "auth_path": "http://localhost:4000"
+  },
+  "fastify": {
+    "log_level": 10
+  },
+  "jwt": {
+    "secret": "8a4dac0b2fe8f664a840047891ecd281667de69979fcd3f3e2fe73cf0d715c7c"
+  },
+  "hash": {
+    "salt_rounds": 10
+  },
+  "database": {
+    "pgsql": {
+      "host": "aws-0-us-east-1.pooler.supabase.com",
+      "port": 6543,
+      "database": "development",
+      "username": "postgres.oefacopwanskfaoyuwcx",
+      "password": "KieQ78xba9rmIAMw",
+      "dialect": "postgres"
+    }
+  },
+  "cache": {
+    "redis": {
+      "host": "0.0.0.0",
+      "port": 7779
+    }
+  },
+  "nodeMailer": {
+    "host": "smtp.gmail.com",
+    "email": "",
+    "password": ""
+  },
+  "cloudinary": {
+    "CLOUDINARY_CLOUD_NAME": "dt1h8sulp",
+    "CLOUDINARY_API_KEY": "548963513539749",
+    "CLOUDINARY_API_SECRET": "01PYDzFKKG3nZkuWYTU_V0ssQQg"
+  }
+}

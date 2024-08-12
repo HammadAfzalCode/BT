@@ -1,0 +1,6 @@
+db/
+.env
+.vscode/
+node_modules/
+package-lock.json
+src/env/production.json
